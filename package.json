@@ -1,0 +1,22 @@
+{
+  "name": "standard-version-playground",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/tetty0217/standard-version-playground",
+  "bugs": "https://github.com/tetty0217/standard-version-playground/issues",
+  "license": "UNLICENSED",
+  "author": "tetty <mori-tetta@dmm.com>",
+  "main": "test.txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetty0217/standard-version-playground"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "release:dry": "standard-version --dry-run",
+    "release:pre": "standard-version --dry-run -- --prerelease alpha"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
